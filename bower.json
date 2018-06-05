@@ -1,0 +1,22 @@
+{
+  "name": "comlink-import",
+  "version": "0.1.0",
+  "main": [
+    "comlink-import.html",
+    "docs.html"
+  ],
+  "description": "wraps comlink, a tiny RPC library that works on windows, iframes, WebWorkers and ServiceWorkers",
+  "keywords": [
+    "wrapper",
+    "comlink",
+    "webworkers"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "comlink": "https://github.com/GoogleChromeLabs/comlink.git#2.4.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  }
+}
